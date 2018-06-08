@@ -1,0 +1,19 @@
+{
+  "name": "cv-frontend",
+  "version": "0.8.0",
+  "description": "contract validation frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blocknowledgy/cv-frontend.git"
+  },
+  "author": "Bas A. Schulte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blocknowledgy/cv-frontend/issues"
+  },
+  "homepage": "https://github.com/blocknowledgy/cv-frontend#readme"
+}
