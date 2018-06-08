@@ -1,19 +1,30 @@
 {
-  "name": "cv-frontend",
-  "version": "0.8.0",
-  "description": "contract validation frontend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blocknowledgy/cv-frontend.git"
-  },
-  "author": "Bas A. Schulte",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/blocknowledgy/cv-frontend/issues"
-  },
-  "homepage": "https://github.com/blocknowledgy/cv-frontend#readme"
+	"name": "cv-frontend",
+	"version": "0.8.0",
+	"description": "contract validation frontend",
+	"main": "index.js",
+	"dependencies": {
+        "create-react-app": "^1.5.2",
+		"axios": "^0.18.0",
+		"react": "^16.4.0",
+		"react-dom": "^16.4.0",
+		"react-scripts": "1.1.4"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+	    "start": "react-scripts start",
+	    "build": "react-scripts build",
+	    "test": "react-scripts test --env=jsdom",
+	    "eject": "react-scripts eject"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/blocknowledgy/cv-frontend.git"
+	},
+	"author": "Bas A. Schulte",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/blocknowledgy/cv-frontend/issues"
+	},
+	"homepage": "https://github.com/blocknowledgy/cv-frontend#readme"
 }
